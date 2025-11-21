@@ -8,7 +8,7 @@ import uuid
 
 # Load Avro schema
 schema = json.loads(open("../avro/order.avsc").read())
-
+# Serialize function
 def avro_serialize(record):
     bytes_writer = io.BytesIO()
     schemaless_writer(bytes_writer, schema, record)

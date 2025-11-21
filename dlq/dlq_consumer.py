@@ -1,6 +1,6 @@
 from kafka import KafkaConsumer
 import json
-
+# Listen to Dead Letter Queue (DLQ) topic
 consumer = KafkaConsumer(
     "orders-dlq",
     bootstrap_servers="localhost:9092",

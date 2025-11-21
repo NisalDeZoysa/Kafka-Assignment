@@ -5,7 +5,7 @@ import json
 import random
 import time
 
-# Load Avro schema
+# #Load Avro schema
 schema = json.loads(open("../avro/order.avsc").read())
 
 def avro_deserialize(msg_bytes):
