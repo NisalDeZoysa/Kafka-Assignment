@@ -1,4 +1,4 @@
-🚀 1. Project Overview
+1.  Project Overview
 
 This system processes Order messages in real time using Kafka.
 Every order contains:
@@ -44,9 +44,9 @@ Path: avro/order.avsc
 ]
 }
 
-⚙️ 3. Kafka Setup Using Docker
-Start Zookeeper
-docker run -d --name zookeeper -p 2181:2181 zookeeper
+3.  Kafka Setup Using Docker
+    Start Zookeeper
+    docker run -d --name zookeeper -p 2181:2181 zookeeper
 
 Start Kafka
 docker run -d --name kafka \
